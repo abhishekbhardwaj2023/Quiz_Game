@@ -13,6 +13,16 @@ question_data = [
         "category": "Science: Computers",
         "type": "boolean",
         "difficulty": "medium",
+        "question": "The HTML stands for Hyper Text Mark Language.",
+        "correct_answer": "False",
+        "incorrect_answers": [
+            "True"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "boolean",
+        "difficulty": "medium",
         "question": "The first computer bug was formed by faulty wires.",
         "correct_answer": "False",
         "incorrect_answers": [
