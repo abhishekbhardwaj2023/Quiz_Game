@@ -1,7 +1,9 @@
+#Importing Libraries
 from question_model import Question
 from data import question_data
 from quiz_brain import QuizBrain
 
+# Arranging Questions
 question_bank = []
 for question in question_data:
     question_text = question["question"]
@@ -11,8 +13,10 @@ for question in question_data:
 
 quiz = QuizBrain(question_bank)
 
+#Start the Quiz
 while quiz.still_has_questions():
     quiz.next_question()
 
+# Showing Score
 print("You've completed the quiz")
 print(f"Your final score was: {quiz.score}/{quiz.question_number}")
