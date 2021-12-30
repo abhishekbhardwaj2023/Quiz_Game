@@ -1,3 +1,5 @@
+# Questions for the quiz in json
+
 question_data = [
     {
         "category": "Science: Computers",
