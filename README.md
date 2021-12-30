@@ -1,2 +1,2 @@
 # Quiz_Game
-A Quiz based program 
+A Quiz based application
